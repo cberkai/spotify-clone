@@ -35,6 +35,7 @@ function App() {
       item: true,
     });
   };
+  s;
   useEffect(() => {
     if (cookies.get("loginToken")) {
       setUserInfo();
